@@ -10,10 +10,10 @@ void setup()
   //size (500, 600); //displayWidth & displayHeight
   fullScreen(); 
   //Population
-  titleX = width*1/5;
-  titleY = height*1/10;
-  titleWidth = width*3/5; //Rect ends at 4/5's of width
-  titleHeight = height*1/10; //Rect ends at 2/10's of height
+  titleX = displayWidth*1/5;
+  titleY = displayHeight*1/10;
+  titleWidth = displayWidth*3/5; //Rect ends at 4/5's of width
+  titleHeight = displayHeight*1/10; //Rect ends at 2/10's of height
   //
   //Fonts from OS (Operating System)
   // String[] fontList = PFont.list(); //To list all fonts available on OS
