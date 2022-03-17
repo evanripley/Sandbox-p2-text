@@ -1,7 +1,7 @@
 String title = "lol bozo.";
 float titleX, titleY, titleWidth, titleHeight;
 PFont titleFont;
-color purple=#E1D6FC, resetDefaultInk=#FFFFFF;
+color red=#F23B3B, resetDefaultInk=#FFFFFF;
 //
 //display geometry, landscape, portrait, or square
 fullScreen(); //size (500, 600);
@@ -20,10 +20,10 @@ titleFont = createFont ("Comic Sans MS", 55); //verify the font exsists in conso
 //layout our text space and typographical features
 rect(titleX, titleY, titleWidth, titleHeight);
 //drawing text
-fill(purple); //ink hexidecimal copied from color selector
+fill(red); //ink hexidecimal copied from color selector
 textAlign(CENTER, CENTER); //align x and y see processing.org / reference
 //values: [ LEFT | CENTER | RIGHT ] and [ TOP | CENTER | BOTTOM | BASELINE ]
-textFont(titleFont, 10); //change number till it fits
+textFont(titleFont, 77); //change number till it fits
 text(title, titleX, titleY, titleWidth, titleHeight);
 fill(resetDefaultInk);
 //end
